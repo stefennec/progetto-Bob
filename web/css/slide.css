@@ -1,0 +1,28 @@
+.carousel-cell{
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+  }
+
+.carousel-cell .slide-content{
+  position: absolute;
+  width: 300px;
+  left: 50%;
+  top:50%;
+  text-align: center;
+  margin-left: -150px;
+}
+
+.carousel-cell .slide-content h3{
+  color: #fefefe;
+  margin-bottom: 32px;
+}
+
+.carousel-cell .slide-content a.read-more{
+  background: #fefefe;
+  color:#1e1e1e;
+  padding: 12px 16px;
+}
